@@ -16,6 +16,11 @@ img {
   margin-top: 20px;
   max-width: 100%;
 }
+section {
+  text-align: center;
+  border-bottom: 1px solid #edefea;
+  cursor: pointer;
+}
 .container {
   max-width: 120rem;
   width: 80%;
@@ -27,11 +32,7 @@ img {
   font-size: calc(35px + 1vw);
   padding-bottom: 20px;
 }
-section {
-  text-align: center;
-  border-bottom: 1px solid #edefea;
-  cursor: pointer;
-}
+
 .fa-solid.fa-plus {
   display: none;
   transition: all 0.5s;
@@ -59,15 +60,6 @@ section {
 .section_copy:hover .fa-solid.fa-plus {
   display: none;
 }
-/* .section_copy:hover .fa-solid.fa-plus {
-  display: block;
-}
-.section_keep:hover .fa-solid.fa-plus {
-  display: block;
-}
-.section_work:hover .fa-solid.fa-plus {
-  display: block;
-} */
 
 /* Img keep
 *************************************/
@@ -119,7 +111,6 @@ section {
 }
 
 /* Image section
-********************************
 ********************************/
 .img_dude,
 .img_relax,
@@ -217,9 +208,6 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-
-/* <i class="fa-solid fa-plus"></i> + */
-/* <i class="fa-solid fa-x"></i> x */
 
 /* Adaptive
 *************************************/
