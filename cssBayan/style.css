@@ -209,9 +209,6 @@ section {
   align-items: center;
 }
 
-/* <i class="fa-solid fa-plus"></i> + */
-/* <i class="fa-solid fa-x"></i> x */
-
 /* Adaptive
 *************************************/
 @media (max-width: 820px) {
