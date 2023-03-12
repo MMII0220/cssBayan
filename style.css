@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  text-align: left;
+  color: #1f6cdc;
+  padding-top: 19px;
+}
+.container {
+  max-width: 120rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.sup_title {
+  color: black;
+  border-bottom: 1px solid #edefea;
+  font-size: calc(35px + 1vw);
+  padding-bottom: 20px;
+}
+.section {
+  text-align: center;
+  border-bottom: 1px solid #edefea;
+}
+/* Img copy
+*************************************/
+.sub_title_copy {
+  color: #000;
+}
+.section:hover .img_copy {
+  width: 350px;
+  height: 341px;
+}
+/* Img keep
+*************************************/
+.section:hover .img_keep {
+  width: 350px;
+  height: 341px;
+}
+/* Img work
+*************************************/
+.section:hover .img_work {
+  width: 350px;
+  height: 341px;
+}
+/* Img dude
+*************************************/
+.section:hover .img_dude {
+  width: 350px;
+  height: 341px;
+}
+/* Img relax
+*************************************/
+.section:hover .img_relax {
+  width: 350px;
+  height: 341px;
+}
+/* Section hover text
+**************************************/
+.container:hover h3 {
+  color: black;
+}
+/* Image section
+********************************
+********************************/
+.img_copy {
+  max-width: 100%;
+  transition: all 0.5s;
+  width: 0;
+  height: 0;
+  padding-bottom: 19px;
+  text-align: center;
+}
+.img_keep {
+  max-width: 100%;
+  width: 0;
+  height: 0;
+  padding-bottom: 19px;
+  transition: all 0.5s;
+}
+.img_work {
+  max-width: 100%;
+  width: 0;
+  height: 0;
+  padding-bottom: 19px;
+  transition: all 0.5s;
+}
+.img_dude {
+  max-width: 100%;
+  width: 0;
+  height: 0;
+  padding-bottom: 19px;
+  transition: all 0.5s;
+}
+.img_relax {
+  max-width: 100%;
+  width: 0;
+  height: 0;
+  padding-bottom: 19px;
+  transition: all 0.5s;
+}
+.active {
+  width: 350px;
+  height: 341px;
+}
+/* h3 text - color: #1f6cdc; */
+/* border color: #edefea; */
