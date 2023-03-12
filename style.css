@@ -12,6 +12,10 @@ h3 {
 body {
   font-family: 'Golos Text', sans-serif;
 }
+img {
+  margin-top: 20px;
+  max-width: 100%;
+}
 .container {
   max-width: 120rem;
   width: 80%;
@@ -30,6 +34,7 @@ section {
 }
 .fa-solid.fa-plus {
   display: none;
+  transition: all 0.5s;
 }
 .fa-solid.fa-x {
   display: none;
@@ -215,3 +220,22 @@ section {
 
 /* <i class="fa-solid fa-plus"></i> + */
 /* <i class="fa-solid fa-x"></i> x */
+
+/* Adaptive
+*************************************/
+@media (max-width: 820px) {
+  .sup_title {
+    font-size: calc(30px + 1vw);
+  }
+  h3 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 320px) {
+  .sup_title {
+    font-size: calc(30px + 1vw);
+  }
+  h3 {
+    font-size: 17px;
+  }
+}
