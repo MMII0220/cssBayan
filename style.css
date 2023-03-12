@@ -19,40 +19,38 @@ h3 {
   font-size: calc(35px + 1vw);
   padding-bottom: 20px;
 }
-.section {
+section {
   text-align: center;
   border-bottom: 1px solid #edefea;
+  cursor: pointer;
 }
 /* Img copy
 *************************************/
-.sub_title_copy {
-  color: #000;
-}
-.section:hover .img_copy {
+.section_copy:hover .img_copy {
   width: 350px;
   height: 341px;
 }
 /* Img keep
 *************************************/
-.section:hover .img_keep {
+.section_keep:hover .img_keep {
   width: 350px;
   height: 341px;
 }
 /* Img work
 *************************************/
-.section:hover .img_work {
+.section_work:hover .sub_title_work {
   width: 350px;
   height: 341px;
 }
 /* Img dude
 *************************************/
-.section:hover .img_dude {
+.section_dude:hover .img_dude {
   width: 350px;
   height: 341px;
 }
 /* Img relax
 *************************************/
-.section:hover .img_relax {
+.section_relax:hover .img_relax {
   width: 350px;
   height: 341px;
 }
@@ -100,9 +98,50 @@ h3 {
   padding-bottom: 19px;
   transition: all 0.5s;
 }
-.active {
+/* Section active
+******************************************/
+.section_copy_inner:focus .img_copy {
   width: 350px;
   height: 341px;
+}
+.section_copy_inner:focus .sub_title_copy {
+  color: #000;
+}
+/* Img keep
+*************************************/
+.section_keep_inner:focus .img_keep {
+  width: 350px;
+  height: 341px;
+}
+.section_keep_inner:focus .sub_title_keep {
+  color: #000;
+}
+/* Img work
+*************************************/
+.section_work_inner:focus .img_work {
+  width: 350px;
+  height: 341px;
+}
+.section_work_inner:focus .sub_title_work {
+  color: #000;
+}
+/* Img dude
+*************************************/
+.section_dude_inner:focus .img_dude {
+  width: 350px;
+  height: 341px;
+}
+.section_dude_inner:focus .sub_title_dude {
+  color: #000;
+}
+/* Img relax
+*************************************/
+.section_relax_inner:active .img_relax {
+  width: 350px;
+  height: 341px;
+}
+.section_relax_inner:focus .sub_title_relax {
+  color: #000;
 }
 /* h3 text - color: #1f6cdc; */
 /* border color: #edefea; */
